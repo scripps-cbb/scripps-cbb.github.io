@@ -1,0 +1,19 @@
+# Single-page navigation — links jump to anchor sections on the home page.
+# Reorder, rename, add, or remove entries here. The `url` should match the
+# `section_id` of a file in _sections/.
+- title: About
+  url: "#about"
+- title: Topics
+  url: "#topics"
+- title: Schedule
+  url: "#schedule"
+- title: Projects
+  url: "#projects"
+- title: Organizers
+  url: "#organizers"
+- title: Partners
+  url: "#partners"
+- title: FAQ
+  url: "#faq"
+- title: Contact
+  url: "#contact"

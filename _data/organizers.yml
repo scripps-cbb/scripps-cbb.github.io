@@ -1,0 +1,17 @@
+# Organizing committee. Add/remove entries here.
+# Optional fields: role, url (homepage / lab / LinkedIn).
+
+- name: "TBD Organizer One"
+  role: "Chair"
+  affiliation: "Scripps Research"
+  url: ""
+
+- name: "TBD Organizer Two"
+  role: "Co-chair"
+  affiliation: "Scripps Research"
+  url: ""
+
+- name: "TBD Organizer Three"
+  role: "Programs"
+  affiliation: "Scripps Research"
+  url: ""

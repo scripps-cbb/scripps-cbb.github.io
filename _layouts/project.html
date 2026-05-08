@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<section class="page-header page-header--project">
+  <div class="container">
+    <p class="page-header__eyebrow"><a href="{{ '/#projects' | relative_url }}">← All projects</a></p>
+    <h1 class="page-header__title">{{ page.title }}</h1>
+    {% if page.lead %}<p class="page-header__subtitle">{{ page.lead }}</p>{% endif %}
+
+    <ul class="project-meta">
+      {% if page.lead_author %}<li><strong>Lead:</strong> {{ page.lead_author }}{% if page.lead_affiliation %}, {{ page.lead_affiliation }}{% endif %}</li>{% endif %}
+      {% if page.theme %}<li><strong>Theme:</strong> {{ page.theme }}</li>{% endif %}
+      {% if page.repo %}<li><strong>Repo:</strong> <a href="{{ page.repo }}">{{ page.repo | replace: 'https://', '' }}</a></li>{% endif %}
+    </ul>
+  </div>
+</section>
+
+<section class="container page-body">
+  <article class="prose">
+    {% if page.team %}
+      <h2>Team</h2>
+      <ul class="team-list">
+        {% for member in page.team %}
+          <li>
+            {% if member.url %}<a href="{{ member.url }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}
+            {% if member.affiliation %} <span class="muted">— {{ member.affiliation }}</span>{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {{ content }}
+  </article>
+</section>

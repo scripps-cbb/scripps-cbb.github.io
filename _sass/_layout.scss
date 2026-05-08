@@ -1,0 +1,239 @@
+// ----- Page header (used on subpages, e.g. project detail) -----
+.page-header {
+  background: var(--color-bg-section);
+  border-bottom: 1px solid var(--color-border);
+  padding-block: 3rem 2.5rem;
+  @include media-up($bp-md) { padding-block: 4.5rem 3rem; }
+
+  &__eyebrow {
+    font-size: $fs-xs;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-bottom: 0.75rem;
+
+    a { color: inherit; }
+  }
+  &__title {
+    font-size: clamp(2rem, calc(3vw + 1rem), 3rem);
+    margin-bottom: 0.5rem;
+  }
+  &__subtitle {
+    font-size: $fs-md;
+    color: var(--color-text-muted);
+    max-width: 60ch;
+  }
+
+  &--project {
+    background: linear-gradient(180deg, var(--color-primary-tint) 0%, var(--color-bg-section) 100%);
+  }
+}
+
+// ----- Project meta strip -----
+.project-meta {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  margin-top: 1.25rem;
+  font-size: $fs-sm;
+  color: var(--color-text-muted);
+}
+.team-list {
+  list-style: none;
+  display: grid;
+  gap: 0.4rem;
+  grid-template-columns: 1fr;
+  @include media-up($bp-sm) { grid-template-columns: repeat(2, 1fr); }
+  margin-bottom: 2rem;
+}
+
+// ----- Page body (markdown content) -----
+.page-body {
+  padding-block: 2.5rem 4rem;
+  @include media-up($bp-md) { padding-block: 3.5rem 5rem; }
+}
+
+// ----- Prose (rendered markdown) -----
+// Constrain text blocks to a comfortable measure while letting grids /
+// tables / images span the full container width.
+.prose {
+  font-size: $fs-md;
+
+  > p, > ul, > ol, > blockquote, > h3, > h4, > h5 { max-width: 72ch; }
+
+  > * + * { margin-top: 1.1em; }
+  > h3 { margin-top: 2em; }
+  > h2 + *, > h3 + * { margin-top: 0.6em; }
+
+  ul, ol { padding-left: 1.4em; }
+  li + li { margin-top: 0.35em; }
+
+  blockquote {
+    border-left: 3px solid var(--color-primary);
+    background: var(--color-primary-tint);
+    padding: 0.8em 1.1em;
+    border-radius: 0 $radius-md $radius-md 0;
+    color: var(--color-text);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-block: 1.5em;
+    font-size: $fs-sm;
+    th, td {
+      text-align: left;
+      padding: 0.7em 0.9em;
+      border-bottom: 1px solid var(--color-border);
+    }
+    th {
+      background: var(--color-bg-section);
+      font-weight: 600;
+      color: var(--color-text);
+    }
+    tr:hover td { background: var(--color-bg-alt); }
+  }
+
+  hr {
+    border: 0;
+    height: 1px;
+    background: var(--color-border);
+    margin-block: 2.5em;
+  }
+
+  img {
+    border-radius: $radius-md;
+    box-shadow: $shadow-sm;
+    margin-block: 1.25em;
+  }
+}
+
+// ----- Single-page anchor sections -----
+.section {
+  padding-block: 4rem;
+  scroll-margin-top: 5rem;
+
+  &--alt { background: var(--color-bg-section); }
+
+  &__header { max-width: 720px; margin-bottom: 2rem; }
+  &__eyebrow {
+    font-size: $fs-xs;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-primary);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  &__title {
+    font-size: clamp(1.75rem, calc(1.5vw + 1.25rem), 2.5rem);
+    margin-bottom: 0.5rem;
+  }
+  &__lead { font-size: $fs-md; color: var(--color-text-muted); max-width: 60ch; }
+
+  &__body { width: 100%; }
+}
+
+// ----- Footer -----
+.site-footer {
+  margin-top: 4rem;
+  background: var(--color-footer-bg);
+  color: var(--color-footer-text);
+
+  &__inner {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr;
+    padding-block: 3rem 2rem;
+    @include media-up($bp-sm) { grid-template-columns: repeat(2, 1fr); }
+    @include media-up($bp-md) { grid-template-columns: repeat(4, 1fr); }
+  }
+
+  &__title { color: var(--color-footer-heading); font-weight: 700; font-size: $fs-md; margin-bottom: 0.4rem; }
+  &__heading {
+    color: var(--color-footer-heading);
+    font-size: $fs-xs;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+  }
+  &__muted { color: var(--color-footer-muted); font-size: $fs-sm; }
+  &__list, &__social {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    font-size: $fs-sm;
+  }
+  &__link, &__social a, &__list a {
+    color: var(--color-footer-text);
+    &:hover { color: var(--color-primary-light); }
+  }
+
+  &__bottom {
+    border-top: 1px solid var(--color-footer-border);
+    padding-block: 1.25rem 1.75rem;
+    color: var(--color-footer-muted);
+  }
+}
+
+.page-content > .container { padding-block: 0; }
+
+// ----- FAQ (collapsible Q&A) -----
+.faq {
+  max-width: 72ch;
+}
+
+.faq-item {
+  border-top: 1px solid var(--color-border);
+
+  &:last-child { border-bottom: 1px solid var(--color-border); }
+
+  > summary {
+    list-style: none;          // hides default disclosure marker (Firefox)
+    cursor: pointer;
+    padding: 1.1rem 0;
+    font-weight: 600;
+    color: var(--color-text);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    transition: color 120ms ease;
+
+    &::-webkit-details-marker { display: none; }    // Safari
+    &:hover { color: var(--color-primary); }
+
+    &::after {
+      content: "+";
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 1.5rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--color-primary);
+      font-size: 1.4em;
+      font-weight: 400;
+      line-height: 1;
+      transition: transform 200ms ease;
+    }
+  }
+
+  &[open] > summary::after {
+    content: "−";
+  }
+
+  // Markdown body inside <details markdown="1"> renders <p>, <ul>, etc.
+  > p, > ul, > ol {
+    color: var(--color-text-muted);
+    margin: 0 0 1.1rem;
+    max-width: none;           // override .prose constraint when nested
+  }
+  > p:first-of-type {
+    margin-top: -0.25rem;
+  }
+}
+

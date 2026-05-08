@@ -1,0 +1,102 @@
+// ============================================================================
+// Theme tokens — CSS custom properties.
+//
+// `:root` defines the LIGHT theme.
+// `[data-theme="dark"]` overrides the tokens for dark mode.
+// The `data-theme` attribute is set on <html> by the inline script in
+// `_includes/head.html`, before the stylesheet loads (no FOUC).
+//
+// Brand: Scripps Research — black, orange (#f1624f), a bit of navy (#273d78).
+// ============================================================================
+
+:root {
+  // Text
+  --color-text:        #1f2426;
+  --color-text-muted:  #5a6166;
+  --color-text-faint:  #808285;
+
+  // Surfaces
+  --color-bg:          #ffffff;
+  --color-bg-alt:      #f7f9fa;
+  --color-bg-section:  #f1f3f5;
+  --color-bg-glass:    rgba(255, 255, 255, 0.92);   // sticky header
+  --color-bg-surface:  rgba(255, 255, 255, 0.7);    // hero meta panel
+
+  // Borders
+  --color-border:         #e5e8ea;
+  --color-border-strong:  #cdd3d6;
+
+  // Primary — Scripps orange
+  --color-primary:         #f1624f;
+  --color-primary-dark:    #d04a39;
+  --color-primary-darker:  #b8392b;
+  --color-primary-light:   #ffa898;
+  --color-primary-tint:    #fff5f1;
+
+  // Accent — same orange (used for solid CTAs)
+  --color-accent:        #f1624f;
+  --color-accent-dark:   #d04a39;
+  --color-accent-light:  #fde8e3;
+
+  // Secondary — Scripps navy ("a bit of blue")
+  --color-secondary:        #273d78;
+  --color-secondary-dark:   #1c2c5a;
+  --color-secondary-light:  #4a6ec1;
+
+  // Footer (always darker than body in light mode)
+  --color-footer-bg:      #0d2729;
+  --color-footer-text:    #c9d1d3;
+  --color-footer-heading: #ffffff;
+  --color-footer-muted:   #8d989b;
+  --color-footer-border:  rgba(255, 255, 255, 0.08);
+
+  // Card / button shadow
+  --shadow-md: #{$shadow-md};
+
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  // Text
+  --color-text:        #e8ecef;
+  --color-text-muted:  #a0a8ad;
+  --color-text-faint:  #6f7c80;
+
+  // Surfaces
+  --color-bg:          #0d0f12;
+  --color-bg-alt:      #14171a;
+  --color-bg-section:  #1a1d20;
+  --color-bg-glass:    rgba(13, 15, 18, 0.92);
+  --color-bg-surface:  rgba(20, 23, 26, 0.55);
+
+  // Borders
+  --color-border:         #2a2e32;
+  --color-border-strong:  #3d4448;
+
+  // Primary — slightly brighter orange on dark for contrast
+  --color-primary:         #ff7a64;
+  --color-primary-dark:    #f1624f;
+  --color-primary-darker:  #d04a39;
+  --color-primary-light:   #ffa898;
+  --color-primary-tint:    rgba(241, 98, 79, 0.14);
+
+  --color-accent:        #ff7a64;
+  --color-accent-dark:   #f1624f;
+  --color-accent-light:  rgba(241, 98, 79, 0.22);
+
+  // Secondary — lighter navy on dark for visibility
+  --color-secondary:        #6885d4;
+  --color-secondary-dark:   #4a6ec1;
+  --color-secondary-light:  #8aa2e0;
+
+  // Footer (deepest black)
+  --color-footer-bg:      #06080a;
+  --color-footer-text:    #a0a8ad;
+  --color-footer-heading: #e8ecef;
+  --color-footer-muted:   #6f7c80;
+  --color-footer-border:  rgba(255, 255, 255, 0.05);
+
+  --shadow-md: #{$shadow-md-dark};
+
+  color-scheme: dark;
+}
