@@ -6,8 +6,8 @@ tagline: "Computational Biology & Bioinformatics Hackathon"
 description: >-
   A computational biology hackathon hosted at Scripps Research, bringing
   together researchers, engineers, and students to build tools for biology.
-url: "https://example.github.io"   # production URL (no trailing slash)
-baseurl: ""                         # set to "/repo-name" for project pages
+url: "https://scripps-cbb.github.io"   # production URL (no trailing slash)
+baseurl: ""                            # empty for an org/user page (<name>.github.io)
 
 # ----------------------------------------------------------------------------
 # Event details — surfaced in the hero and on the About page.
