@@ -2,18 +2,10 @@
 # reference them by filename below. Leave `logo` blank to render a text
 # placeholder card instead.
 
-- name: "Scripps Research"
+- name: "Scripps Research ISCB Department"
   url: "https://www.scripps.edu"
   logo: ""           # e.g. partners/scripps.svg
-
-- name: "Scripps Research Computational Biology & Bioinformatics Interest Group"
-  url: ""
-  logo: ""
 
 - name: "Amazon Web Services"
   url: "https://aws.amazon.com"
   logo: ""           # e.g. partners/aws.svg
-
-- name: "TBD Sponsor"
-  url: ""
-  logo: ""

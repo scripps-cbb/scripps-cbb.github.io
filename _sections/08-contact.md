@@ -8,7 +8,6 @@ section_class: "section--alt"
 
 For questions of any kind, email
 [**{{ site.event.contact_email }}**](mailto:{{ site.event.contact_email }}).
-We typically respond within a few working days.
 
 ### What to include
 

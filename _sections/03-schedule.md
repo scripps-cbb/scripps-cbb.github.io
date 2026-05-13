@@ -7,12 +7,12 @@ weight: 30
 
 #### Day 1 — Friday, May 29
 
-*Hazen Seminar Room*
+*Kresge Library*
 
 | Time     | Session                                                                                              |
 | -------- | ---------------------------------------------------------------------------------------------------- |
 | 9:05 am  | Welcome                                                                                              |
-| 9:20 am  | Keynote — Jamie Williamson                                                                           |
+| 9:20 am  | Address — Jamie Williamson                                                                           |
 | 9:30 am  | Project pitches                                                                                      |
 | 9:40 am  | Team formation                                                                                       |
 | 10:00 am | Project outlining                                                                                    |
@@ -29,8 +29,8 @@ weight: 30
 
 | Time     | Session                                  |
 | -------- | ---------------------------------------- |
-| 11:00 am | Welcome                                  |
-| 11:10 am | Project presentations (5–10 min/project) |
+| 10:00 am | Welcome                                  |
+| 10:10 am | Project presentations (5–10 min/project) |
 | 12:00 pm | **Lunch / judge deliberations**          |
 | 12:30 pm | Prize announcements                      |
 | 12:35 pm | Wrap-up and acknowledgements             |
