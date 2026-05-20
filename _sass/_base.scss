@@ -118,4 +118,15 @@ pre {
     border-color: var(--color-border-strong);
     &:hover, &:focus-visible { color: var(--color-primary); border-color: var(--color-primary); }
   }
+
+  &--with-icon .slack-logo,
+  &--with-icon .luma-icon { width: 1.1em; height: 1.1em; flex-shrink: 0; }
+}
+
+.site-footer__link--with-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+
+  .slack-logo { width: 1em; height: 1em; flex-shrink: 0; }
 }

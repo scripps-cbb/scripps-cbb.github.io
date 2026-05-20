@@ -9,16 +9,32 @@ A hands-on hackathon where researchers across Scripps come together to dig into 
 ### Who can participate
 Anyone at Scripps who's curious — graduate students, postdocs, staff scientists, and researchers at any level of computational experience. If you've never written a line of code, that's okay. Domain expertise, biological intuition, and fresh perspectives are just as valuable as technical chops, and projects are scoped so that wet-lab biologists, computational researchers, and engineers can contribute meaningfully on the same team.
 
-External collaborators are welcome by invitation.
+**This is an internal Scripps Research event.** Participation is limited
+to Scripps Research personnel — faculty, postdocs, students, and staff.
+External collaborators are not eligible to join.
+
+Within Scripps, anyone is welcome: wet-lab biologists, computational
+researchers, software engineers, ML practitioners, and data scientists.
+Participants do not need to be experts in everything — projects are
+scoped so contributors from different backgrounds can work meaningfully
+on the same team.
 
 ### Format
 The main hacking day is on Friday, with team presentations and awards the following Monday:
 
-1. **Friday** — kickoff, project pitches, team formation, and time to work alongside training sessions on agentic AI and AWS.
-2. **Weekend** — keep building (or take a breather) at your own pace.
-3. **Monday** — final sprint, project presentations, and awards.
+The in-person component runs on **Friday and Monday only**. The weekend
+in between is unstructured and entirely optional — there is no designated
+venue, and teams can choose whether to work, how much, and from where.
 
-See the [schedule](#schedule) for timings.
+1. **Friday, May 29** *(in person)* — kickoff, keynote, project pitches,
+   team formation, training sessions (agentic AI bootcamp, AWS 101), and
+   the first hacking session.
+2. **Weekend (May 30–31)** *(optional, remote)* — open hacking time for
+   teams that want it. No designated venue, no required sessions.
+3. **Monday, June 1** *(in person)* — project presentations, judging,
+   prizes, and wrap-up.
+
+See the [agenda](#schedule) for timings.
 
 ### What you'll get out of it
 - A small, focused team built around a problem you actually want to solve.

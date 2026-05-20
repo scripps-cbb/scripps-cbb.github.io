@@ -10,7 +10,7 @@ All page content lives in markdown — edit the file, commit, GitHub Pages rebui
 
 | What you want to change                | Where to edit                          |
 | -------------------------------------- | -------------------------------------- |
-| Site title, dates, contact email, URLs | `_config.yml` (top of file)            |
+| Site title, dates, URLs                | `_config.yml` (top of file)            |
 | Any homepage section's content         | `_sections/<weight>-<name>.md`         |
 | Add a new homepage section             | New file in `_sections/` with `weight` |
 | Top navbar order/labels                | `_data/navigation.yml`                 |

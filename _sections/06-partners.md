@@ -22,4 +22,4 @@ organizations.
 </div>
 
 Interested in sponsoring or partnering on the next hackathon? Get in touch
-at [{{ site.event.contact_email }}](mailto:{{ site.event.contact_email }}).
+with any of the organizers.

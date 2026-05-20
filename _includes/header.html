@@ -1,7 +1,7 @@
 <header class="site-header" role="banner">
   <div class="container site-header__inner">
     <a class="site-header__brand" href="{{ '/' | relative_url }}">
-      <span class="site-header__brand-mark" aria-hidden="true"></span>
+      <img class="site-header__brand-mark" src="{{ '/assets/images/scripps-logo.svg' | relative_url }}" alt="" aria-hidden="true">
       <span class="site-header__brand-text">{{ site.title }}</span>
     </a>
 
@@ -29,7 +29,7 @@
       </button>
 
       {% if site.event.cta_url %}
-        <a class="btn btn--accent site-nav__cta" href="{{ site.event.cta_url }}">{{ site.event.cta_label | default: 'Register' }}</a>
+        <a class="btn btn--accent site-nav__cta btn--with-icon" href="{{ site.event.cta_url }}"><img class="luma-icon" src="{{ '/assets/images/luma-icon.png' | relative_url }}" alt="" aria-hidden="true"><span>{{ site.event.cta_label | default: 'Register' }}</span></a>
       {% endif %}
     </nav>
   </div>
