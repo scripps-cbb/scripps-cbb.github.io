@@ -12,12 +12,12 @@ weight: 30
 | Time     | Session                                                                                              |
 | -------- | ---------------------------------------------------------------------------------------------------- |
 | 9:05 am  | Welcome                                                                                              |
-| 9:20 am  | Address — Jamie Williamson                                                                           |
+| 9:15 am  | Keynote — Jamie Williamson                                                                           |
 | 9:30 am  | Project pitches                                                                                      |
 | 9:40 am  | Team formation                                                                                       |
 | 10:00 am | Project outlining                                                                                    |
-| 10:15 am | Agentic AI bootcamp (Andrew Su) — Claude Code setup, example use-cases, limitations, Scripps HPC skill |
-| 11:00 am | AWS 101 (Omar Tabbakha) — working within AWS, Amazon Open Data, Amazon Bio Discovery                 |
+| 10:15 am | Agentic AI bootcamp (Dr. Benjamin Good) — Claude Code setup, example use-cases, limitations, Scripps HPC skill |
+| 11:00 am | AWS 101 (Omar Tabbakha) — getting familiar with working within AWS, Amazon Open Data, Amazon Bio Discovery, Amazon Bedrock |
 | 12:15 pm | **Lunch** (hackathon & training-session participants)                                                |
 | 12:45 pm | Time for hacking                                                                                     |
 | 4:45 pm  | End-of-day announcements                                                                             |

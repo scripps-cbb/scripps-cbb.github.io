@@ -6,8 +6,8 @@ tagline: "Computational Biology & Bioinformatics Hackathon"
 description: >-
   A computational biology hackathon hosted at Scripps Research, bringing
   together researchers, engineers, and students to build tools for biology.
-url: "https://example.github.io"   # production URL (no trailing slash)
-baseurl: ""                         # set to "/repo-name" for project pages
+url: "https://scripps-cbb.github.io"   # production URL (no trailing slash)
+baseurl: ""                            # empty for an org/user page (<name>.github.io)
 
 # ----------------------------------------------------------------------------
 # Event details — surfaced in the hero and on the About page.
@@ -16,11 +16,12 @@ event:
   name: "CBB Hackathon 2026"
   dates: "May 29 – June 1, 2026"
   location: "Scripps Research, La Jolla, California"
-  venue: "Beckman Center for Chemical Sciences"
+  venue: "Kresge Library"
   host: "Scripps Research Computational Biology & Bioinformatics Interest Group"
-  cta_label: "Register interest"
+  cta_label: "Register"
   cta_url: "https://luma.com/j1xwjcco"
-  contact_email: "cbb_admin@scripps.edu"
+  slack_label: "Join the Slack"
+  slack_url: "https://join.slack.com/t/scrippscbbhackathon/shared_invite/zt-3yifcq2j7-ZLfIiPt7KLaWY7B7_n3_aw"
 
 # ----------------------------------------------------------------------------
 # Social / external links — leave blank to hide.

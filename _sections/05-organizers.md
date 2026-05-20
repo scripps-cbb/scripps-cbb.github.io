@@ -5,8 +5,7 @@ section_id: organizers
 weight: 50
 ---
 
-The team running the hackathon. Reach the committee at
-[{{ site.event.contact_email }}](mailto:{{ site.event.contact_email }}).
+The team running the hackathon.
 
 <div class="people-grid">
 {% for p in site.data.organizers %}

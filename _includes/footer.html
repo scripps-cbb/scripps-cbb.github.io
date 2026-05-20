@@ -5,12 +5,12 @@
       <p class="site-footer__muted">{{ site.event.dates }} · {{ site.event.location }}</p>
     </div>
 
+    {% if site.event.slack_url %}
     <div class="site-footer__col">
-      <p class="site-footer__heading">Contact</p>
-      {% if site.event.contact_email %}
-        <a class="site-footer__link" href="mailto:{{ site.event.contact_email }}">{{ site.event.contact_email }}</a>
-      {% endif %}
+      <p class="site-footer__heading">Slack</p>
+      <a class="site-footer__link site-footer__link--with-icon" href="{{ site.event.slack_url }}">{% include slack-logo.svg %}<span>{{ site.event.slack_label | default: "Join the Slack" }}</span></a>
     </div>
+    {% endif %}
 
     <div class="site-footer__col">
       <p class="site-footer__heading">Links</p>
@@ -20,17 +20,6 @@
         {% endfor %}
       </ul>
     </div>
-
-    {% if site.social.github or site.social.twitter or site.social.linkedin %}
-    <div class="site-footer__col">
-      <p class="site-footer__heading">Follow</p>
-      <ul class="site-footer__social">
-        {% if site.social.github %}<li><a href="{{ site.social.github }}">GitHub</a></li>{% endif %}
-        {% if site.social.twitter %}<li><a href="{{ site.social.twitter }}">Twitter / X</a></li>{% endif %}
-        {% if site.social.linkedin %}<li><a href="{{ site.social.linkedin }}">LinkedIn</a></li>{% endif %}
-      </ul>
-    </div>
-    {% endif %}
   </div>
 
   <div class="container site-footer__bottom">
