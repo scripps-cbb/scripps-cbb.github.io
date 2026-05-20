@@ -8,6 +8,18 @@ weight: 70
 <div class="faq">
 
 <details class="faq-item" markdown="1">
+<summary>How will instructions and updates be communicated?</summary>
+
+Through the **CBB Hackathon Slack workspace**. All instructions,
+schedule updates, training-session links, and announcements will be
+posted there before and during the event. It's also the fastest way to
+reach the organizers if you have a question or run into a problem.
+
+[**Join the Slack →**]({{ site.event.slack_url }})
+
+</details>
+
+<details class="faq-item" markdown="1">
 <summary>Who can participate?</summary>
 
 This is an **internal Scripps Research event**. Participation is limited
@@ -62,7 +74,8 @@ you want to attend.
 <details class="faq-item" markdown="1">
 <summary>Is there a registration fee?</summary>
 
-No. Registration is free for eligible participants.
+No. Registration is free for eligible participants. Sign up on the
+[event page]({{ site.event.cta_url }}).
 
 </details>
 
@@ -78,8 +91,8 @@ will be available at every team table.
 <summary>Will food be provided?</summary>
 
 Yes. Lunch is provided on both days, and dinner is provided on Day 1 for
-hackathon participants. Let us know any dietary needs on the registration
-form.
+hackathon participants. Let us know any dietary needs on the
+[registration form]({{ site.event.cta_url }}).
 
 </details>
 
@@ -139,7 +152,8 @@ methods, and outcomes. Teams are encouraged to keep going beyond the event.
 <summary>What's the code of conduct?</summary>
 
 Be respectful, be inclusive, and contribute to a space where everyone
-can do their best work. Issues can be reported to any organizer.
+can do their best work. Issues can be reported to any organizer in
+person or via direct message on [Slack]({{ site.event.slack_url }}).
 
 </details>
 

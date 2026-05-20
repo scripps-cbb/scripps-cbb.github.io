@@ -5,6 +5,13 @@
       <p class="site-footer__muted">{{ site.event.dates }} · {{ site.event.location }}</p>
     </div>
 
+    {% if site.event.slack_url %}
+    <div class="site-footer__col">
+      <p class="site-footer__heading">Slack</p>
+      <a class="site-footer__link site-footer__link--with-icon" href="{{ site.event.slack_url }}">{% include slack-logo.svg %}<span>{{ site.event.slack_label | default: "Join the Slack" }}</span></a>
+    </div>
+    {% endif %}
+
     <div class="site-footer__col">
       <p class="site-footer__heading">Links</p>
       <ul class="site-footer__list">

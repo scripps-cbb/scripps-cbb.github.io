@@ -18,8 +18,10 @@ event:
   location: "Scripps Research, La Jolla, California"
   venue: "Kresge Library"
   host: "Scripps Research Computational Biology & Bioinformatics Interest Group"
-  cta_label: "Register interest"
-  cta_url: ""
+  cta_label: "Register"
+  cta_url: "https://luma.com/j1xwjcco"
+  slack_label: "Join the Slack"
+  slack_url: "https://join.slack.com/t/scrippscbbhackathon/shared_invite/zt-3yifcq2j7-ZLfIiPt7KLaWY7B7_n3_aw"
 
 # ----------------------------------------------------------------------------
 # Social / external links — leave blank to hide.
