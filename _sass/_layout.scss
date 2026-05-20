@@ -147,7 +147,7 @@
     grid-template-columns: 1fr;
     padding-block: 3rem 2rem;
     @include media-up($bp-sm) { grid-template-columns: repeat(2, 1fr); }
-    @include media-up($bp-md) { grid-template-columns: repeat(4, 1fr); }
+    @include media-up($bp-md) { grid-template-columns: repeat(3, 1fr); }
   }
 
   &__title { color: var(--color-footer-heading); font-weight: 700; font-size: $fs-md; margin-bottom: 0.4rem; }

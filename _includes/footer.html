@@ -20,17 +20,6 @@
         {% endfor %}
       </ul>
     </div>
-
-    {% if site.social.github or site.social.twitter or site.social.linkedin %}
-    <div class="site-footer__col">
-      <p class="site-footer__heading">Follow</p>
-      <ul class="site-footer__social">
-        {% if site.social.github %}<li><a href="{{ site.social.github }}">GitHub</a></li>{% endif %}
-        {% if site.social.twitter %}<li><a href="{{ site.social.twitter }}">Twitter / X</a></li>{% endif %}
-        {% if site.social.linkedin %}<li><a href="{{ site.social.linkedin }}">LinkedIn</a></li>{% endif %}
-      </ul>
-    </div>
-    {% endif %}
   </div>
 
   <div class="container site-footer__bottom">
