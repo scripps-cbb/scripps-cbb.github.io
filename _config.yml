@@ -16,11 +16,10 @@ event:
   name: "CBB Hackathon 2026"
   dates: "May 29 – June 1, 2026"
   location: "Scripps Research, La Jolla, California"
-  venue: "Beckman Center for Chemical Sciences"
+  venue: "Kresge Library"
   host: "Scripps Research Computational Biology & Bioinformatics Interest Group"
   cta_label: "Register interest"
-  cta_url: "mailto:hackathon@example.org"
-  contact_email: "hackathon@example.org"
+  cta_url: ""
 
 # ----------------------------------------------------------------------------
 # Social / external links — leave blank to hide.

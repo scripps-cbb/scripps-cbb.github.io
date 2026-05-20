@@ -10,18 +10,52 @@ weight: 70
 <details class="faq-item" markdown="1">
 <summary>Who can participate?</summary>
 
-The hackathon is open to Scripps Research faculty, postdocs, students,
-and staff, plus invited collaborators. Software engineers, ML
-practitioners, and lab scientists are equally welcome — projects are
-scoped so that wet-lab and computational backgrounds can both contribute.
+This is an **internal Scripps Research event**. Participation is limited
+to Scripps Research personnel — faculty, postdocs, students, and staff.
+External collaborators are not eligible. Within Scripps, wet-lab
+biologists, computational researchers, software engineers, ML
+practitioners, and data scientists are all welcome.
 
 </details>
 
 <details class="faq-item" markdown="1">
-<summary>Do I need to come with a team?</summary>
+<summary>Where will the hackathon be held?</summary>
 
-No. Day 1 starts with project pitches followed by team formation — pitch
-your own idea or join one that's already on the board.
+The in-person sessions on Friday and Monday are at **Kresge Library** on
+the Scripps Research La Jolla campus. Look for signage at the entrance
+on the day of the event. Parking is available on campus; allow extra
+time on Friday morning to find a spot and check in.
+
+</details>
+
+<details class="faq-item" markdown="1">
+<summary>How will team formation work?</summary>
+
+Both options work — come with your own team, or form one on the day.
+Friday morning starts with project pitches followed by a team-formation
+session, so you can pitch your own idea, join one that's already on the
+board, or stick with a group you arrived with.
+
+</details>
+
+<details class="faq-item" markdown="1">
+<summary>Are projects predetermined?</summary>
+
+No. A handful of suggested projects are listed on the [Projects](#projects)
+section as starting points, but you are free to come up with your own.
+You can also remix or extend a suggested project — the pitch session on
+Friday is the place to propose whatever you want to build.
+
+</details>
+
+<details class="faq-item" markdown="1">
+<summary>What if I need to step out for portions of the hackathon?</summary>
+
+That's completely fine. We know participants have meetings, experiments,
+and other obligations — come and go as you need. The weekend hacking is
+entirely optional and remote, so there's no expectation to be present
+for any particular block of time outside the Friday and Monday sessions
+you want to attend.
 
 </details>
 
@@ -52,9 +86,9 @@ form.
 <details class="faq-item" markdown="1">
 <summary>Can I attend remotely?</summary>
 
-The hackathon is in-person at Scripps Research, La Jolla. Project teams
-can include remote collaborators, but at least one team member should
-be on site.
+The Friday and Monday sessions are in-person at Kresge Library and not
+streamed. The weekend in between is optional and unstructured — teams
+that want to keep working can do so from anywhere.
 
 </details>
 
@@ -105,9 +139,7 @@ methods, and outcomes. Teams are encouraged to keep going beyond the event.
 <summary>What's the code of conduct?</summary>
 
 Be respectful, be inclusive, and contribute to a space where everyone
-can do their best work. Issues can be reported to any organizer or by
-email to
-[{{ site.event.contact_email }}](mailto:{{ site.event.contact_email }}).
+can do their best work. Issues can be reported to any organizer.
 
 </details>
 

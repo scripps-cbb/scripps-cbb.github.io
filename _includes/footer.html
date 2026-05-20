@@ -6,13 +6,6 @@
     </div>
 
     <div class="site-footer__col">
-      <p class="site-footer__heading">Contact</p>
-      {% if site.event.contact_email %}
-        <a class="site-footer__link" href="mailto:{{ site.event.contact_email }}">{{ site.event.contact_email }}</a>
-      {% endif %}
-    </div>
-
-    <div class="site-footer__col">
       <p class="site-footer__heading">Links</p>
       <ul class="site-footer__list">
         {% for item in site.data.navigation %}

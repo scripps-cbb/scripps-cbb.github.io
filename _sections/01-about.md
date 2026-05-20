@@ -12,23 +12,31 @@ and pipelines for shared infrastructure.
 
 ### Who can participate
 
-- Researchers (faculty, postdocs, students) at Scripps Research and partner institutes.
-- Software engineers, ML practitioners, and data scientists with an interest in biology.
-- External collaborators by invitation.
+**This is an internal Scripps Research event.** Participation is limited
+to Scripps Research personnel — faculty, postdocs, students, and staff.
+External collaborators are not eligible to join.
 
-Participants do not need to be experts in everything — projects are scoped
-so that wet-lab biologists, computational researchers, and engineers can
-contribute meaningfully on the same team.
+Within Scripps, anyone is welcome: wet-lab biologists, computational
+researchers, software engineers, ML practitioners, and data scientists.
+Participants do not need to be experts in everything — projects are
+scoped so contributors from different backgrounds can work meaningfully
+on the same team.
 
 ### Format
 
-Three days of focused work:
+The in-person component runs on **Friday and Monday only**. The weekend
+in between is unstructured and entirely optional — there is no designated
+venue, and teams can choose whether to work, how much, and from where.
 
-1. **Day 1** — kickoff, project pitches, team formation, first work session.
-2. **Day 2** — full-day work sessions with checkpoints; an evening social.
-3. **Day 3** — final sprint, project presentations, wrap-up.
+1. **Friday, May 29** *(in person)* — kickoff, keynote, project pitches,
+   team formation, training sessions (agentic AI bootcamp, AWS 101), and
+   the first hacking session.
+2. **Weekend (May 30–31)** *(optional, remote)* — open hacking time for
+   teams that want it. No designated venue, no required sessions.
+3. **Monday, June 1** *(in person)* — project presentations, judging,
+   prizes, and wrap-up.
 
-See the [schedule](#schedule) for timings.
+See the [agenda](#schedule) for timings.
 
 ### What you'll get out of it
 

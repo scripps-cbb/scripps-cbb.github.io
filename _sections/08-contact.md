@@ -6,8 +6,7 @@ weight: 80
 section_class: "section--alt"
 ---
 
-For questions of any kind, email
-[**{{ site.event.contact_email }}**](mailto:{{ site.event.contact_email }}).
+For questions of any kind, reach out to any of the organizers.
 We typically respond within a few working days.
 
 ### What to include

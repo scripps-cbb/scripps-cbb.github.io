@@ -1,17 +1,16 @@
 # Organizing committee. Add/remove entries here.
 # Optional fields: role, url (homepage / lab / LinkedIn).
 
-- name: "TBD Organizer One"
-  role: "Chair"
-  affiliation: "Scripps Research"
-  url: ""
+- name: "Ian Newman"
 
-- name: "TBD Organizer Two"
-  role: "Co-chair"
-  affiliation: "Scripps Research"
-  url: ""
+- name: "Gabriel Ong"
 
-- name: "TBD Organizer Three"
-  role: "Programs"
-  affiliation: "Scripps Research"
-  url: ""
+- name: "James Caviness"
+
+- name: "Rotimi Omorodion"
+
+- name: "Quentin Tallon"
+
+- name: "Shelby Ferrier"
+
+- name: "Richard Gast"
