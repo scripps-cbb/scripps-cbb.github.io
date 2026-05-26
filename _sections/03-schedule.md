@@ -30,7 +30,7 @@ weight: 30
 | Time     | Session                                  |
 | -------- | ---------------------------------------- |
 | 10:00 am | Welcome                                  |
-| 10:10 am | Project presentations (5–10 min/project) |
+| 10:10 am | Project presentations (5–7 min/project)  |
 | 12:00 pm | **Lunch / judge deliberations**          |
 | 12:30 pm | Prize announcements                      |
 | 12:35 pm | Wrap-up and acknowledgements             |
