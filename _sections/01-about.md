@@ -6,6 +6,8 @@ weight: 10
 ---
 A hands-on hackathon where researchers across Scripps come together to dig into real biological datasets, experiment with new tools, and build something together. No prior experience required, just curiosity and a willingness to dig in.
 
+**Bring your own project, or pick from the [suggested ideas](#projects)** — either path is welcome. Same goes for teams: **come with a team already assembled, or form one on the day** during Friday morning's project pitches and team-formation session.
+
 ### Who can participate
 Anyone at Scripps who's curious — graduate students, postdocs, staff scientists, and researchers at any level of computational experience. If you've never written a line of code, that's okay. Domain expertise, biological intuition, and fresh perspectives are just as valuable as technical chops, and projects are scoped so that wet-lab biologists, computational researchers, and engineers can contribute meaningfully on the same team.
 
