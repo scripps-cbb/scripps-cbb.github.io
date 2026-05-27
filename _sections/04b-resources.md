@@ -20,6 +20,11 @@ sessions, walkthroughs, and slides from event presenters.
   installation through advanced workflows.
   [Recording](https://drive.google.com/file/d/1_dzES9ejW1IpPMpf_OK9Sgz7J2gdlDvZ/view?usp=sharing)
   · [Notes](https://hackmd.io/jmOnSXt2SwCe8HN9TNX_zg).
+- **[Life Science AI Ecosystem](https://goodb.github.io/sci-ai-enabler/)** —
+  Curated, daily-refreshed catalog of Claude AI components (skills,
+  MCP servers, plugins, connectors) applicable to life-sciences
+  research, with recipes pairing research problems to recommended
+  tool combinations.
 
 ### Event materials
 
