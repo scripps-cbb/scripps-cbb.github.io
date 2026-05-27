@@ -10,6 +10,11 @@ sessions, walkthroughs, and slides from event presenters.
 
 ### Other resources
 
+- **[Scripps Hackathon Starter](https://github.com/scripps-cbb/scripps-hackathon-starter)** —
+  A ready-to-fork template repo. Comes with a pre-configured Claude
+  Code workspace (AWS and Garibaldi HPC skills), setup guides for both
+  platforms, and three Hello World exercises that validate your AWS
+  SSO and HPC accounts before the event kicks off.
 - **Claude Chat, Cowork and Code, from setup to tips and tricks** —
   Dr. Talmo Pereira (Salk). A walkthrough of Claude Code from
   installation through advanced workflows.
