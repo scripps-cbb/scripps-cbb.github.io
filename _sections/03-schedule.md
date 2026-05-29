@@ -25,7 +25,7 @@ weight: 30
 
 #### Day 2 — Monday, June 1
 
-*Hazen Dining Room*
+*Kresge Library*
 
 | Time     | Session                                  |
 | -------- | ---------------------------------------- |
