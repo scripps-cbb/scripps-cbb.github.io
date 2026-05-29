@@ -1,0 +1,106 @@
+name: Project idea
+description: Propose a project for the Scripps CBB Hackathon.
+title: "[Project] <short title here>"
+labels: ["project-idea", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing a project! Fill out the fields below — most are
+        one line. Markdown is welcome anywhere (bold, links, bullets).
+
+        **First time using GitHub?** Just type into each box. You can paste
+        from Word/Google Docs. When you're done, scroll to the bottom and
+        click the green **Submit new issue** button.
+
+  - type: input
+    id: title
+    attributes:
+      label: Project title
+      placeholder: e.g. "Inferring brain organoid structure from electrode recordings"
+    validations:
+      required: true
+
+  - type: textarea
+    id: elevator
+    attributes:
+      label: Elevator pitch (1 sentence)
+      placeholder: "Use integrative modelling to build structural hypotheses for how PQBP1 recognises oligomeric ligands and triggers inflammation."
+    validations:
+      required: true
+
+  - type: input
+    id: lead_author
+    attributes:
+      label: Project lead — your name
+      placeholder: "Dale Allen"
+    validations:
+      required: true
+
+  - type: input
+    id: theme
+    attributes:
+      label: Theme / topic tags
+      description: Comma-separated tags describing the work.
+      placeholder: "Integrative structural modelling, innate immunity"
+    validations:
+      required: true
+
+  - type: textarea
+    id: data
+    attributes:
+      label: Data
+      description: |
+        What datasets / inputs will the team need, and where do they live?
+        If data is private or pre-publication, note it in **Confidentiality**
+        below.
+
+  - type: textarea
+    id: details
+    attributes:
+      label: More info
+      description: |
+        Anything else worth knowing — scientific context, what success looks
+        like, stretch goals, skills participants will build, compute needs,
+        team size you want. As much or as little as you like.
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Papers, preprints, blog posts, prior projects. One URL per line.
+      placeholder: |
+        https://pubmed.ncbi.nlm.nih.gov/...
+        https://www.nature.com/articles/...
+
+  - type: input
+    id: repo
+    attributes:
+      label: Existing code or repo
+      description: URL of any starter code teams should build from. Leave blank if none.
+      placeholder: "https://github.com/your-lab/starter"
+
+  - type: textarea
+    id: confidentiality
+    attributes:
+      label: Confidentiality notes
+      description: |
+        Anything participants should keep confidential (e.g. unpublished
+        data, pre-submission manuscripts). Will appear as a callout on the
+        project page.
+
+  - type: textarea
+    id: other
+    attributes:
+      label: Anything else
+      description: Questions for organisers, blockers, asks, ideas.
+
+  - type: checkboxes
+    id: agreements
+    attributes:
+      label: Confirmations
+      options:
+        - label: I'll be present at the hackathon to lead this project (or have a co-lead lined up).
+          required: true
+        - label: I'm affiliated with Scripps Research.
+          required: true

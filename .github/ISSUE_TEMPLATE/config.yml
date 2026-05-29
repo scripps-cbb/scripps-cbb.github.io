@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Hackathon homepage
+    url: https://scripps-cbb.github.io/
+    about: Dates, schedule, FAQ, and the full project list.
+  - name: Already-listed projects
+    url: https://scripps-cbb.github.io/#projects
+    about: Browse existing project ideas before submitting a new one — your idea may already exist.
+  - name: Hackathon Slack
+    url: https://scripps-cbb.github.io/#contact
+    about: For everything that's not a project pitch — questions, suggestions, "I'd love to see X happen but won't lead it", etc.
